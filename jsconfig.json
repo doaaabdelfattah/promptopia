@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Ensures relative paths are resolved from the project root
+    "paths": {
+      "@*": [".*"] // Allows shorthand imports like @folder/file
+      // "@app/*": ["app/*"]
+    }
+  },
+  "include": ["next-env.d.ts", "**/*.js", "**/*.jsx", "**/*.ts", "**/*.tsx"], // Ensures all relevant files are included
+  "exclude": ["node_modules"] // Excludes unnecessary files
+}

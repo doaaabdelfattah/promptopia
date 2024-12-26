@@ -1,0 +1,29 @@
+{
+  "name": "promptopia",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@next/eslint-plugin-next": "^15.1.2",
+    "cors": "^2.8.5",
+    "mongodb": "^6.12.0",
+    "mongoose": "^8.9.2",
+    "next": "^15.1.2",
+    "next-auth": "^4.24.11",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "turbo": "^2.3.3",
+    "typescript": "^5.7.2"
+  }
+}
