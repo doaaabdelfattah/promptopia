@@ -148,7 +148,12 @@ const Nav = () => {
                 <button
                   type="button"
                   key={provider.name}
-                  onClick={() => provider.id}
+                  onClick={() =>
+                    signIn(provider.id, {
+                      callbackUrl: window.location.origin,
+                      prompt: "select_account",
+                    })
+                  }
                   className="black_btn"
                 >
                   Sign In
